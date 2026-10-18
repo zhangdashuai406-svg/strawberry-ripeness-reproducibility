@@ -1,0 +1,156 @@
+{
+  "system": "d0",
+  "dataset": "external",
+  "detector": "runs/a_pooled_three_class/A1_pooled3c_seed42/weights/best.pt",
+  "classifier": null,
+  "parameters": {
+    "detector_conf": 0.001,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "score_threshold": 0.25,
+    "d3_score": null,
+    "crop_margin": null
+  },
+  "metrics": {
+    "images": 142,
+    "total_gt": 434,
+    "total_predictions_at_detector_floor": 6799,
+    "map50": 0.6406704502298304,
+    "map50_95": 0.40300713972379576,
+    "per_class": {
+      "fully_ripened": {
+        "gt": 131,
+        "ap50": 0.7153765340814247,
+        "map50_95": 0.49001767058706014,
+        "ap_by_iou": {
+          "0.50": 0.7153765340814247,
+          "0.55": 0.6865735830016303,
+          "0.60": 0.6701351097458866,
+          "0.65": 0.6625212561211136,
+          "0.70": 0.622242654532025,
+          "0.75": 0.5808951405561469,
+          "0.80": 0.491693487417958,
+          "0.85": 0.34117194848214366,
+          "0.90": 0.12461649688276717,
+          "0.95": 0.0049504950495049506
+        }
+      },
+      "green": {
+        "gt": 241,
+        "ap50": 0.6940684443212993,
+        "map50_95": 0.3814700978229154,
+        "ap_by_iou": {
+          "0.50": 0.6940684443212993,
+          "0.55": 0.6567604551451867,
+          "0.60": 0.6148287136968598,
+          "0.65": 0.5731099836614196,
+          "0.70": 0.477416832039045,
+          "0.75": 0.3714476431553106,
+          "0.80": 0.25110740842604945,
+          "0.85": 0.13187755885109212,
+          "0.90": 0.04356283419083818,
+          "0.95": 0.0005211047420531526
+        }
+      },
+      "half_ripened": {
+        "gt": 62,
+        "ap50": 0.5125663722867672,
+        "map50_95": 0.3375336507614117,
+        "ap_by_iou": {
+          "0.50": 0.5125663722867672,
+          "0.55": 0.4990004045176525,
+          "0.60": 0.49398561732464746,
+          "0.65": 0.4477924311235366,
+          "0.70": 0.41540957877300333,
+          "0.75": 0.3815020535667012,
+          "0.80": 0.36468907815151264,
+          "0.85": 0.24097152992610185,
+          "0.90": 0.01941944194419442,
+          "0.95": 0.0
+        }
+      }
+    },
+    "operating_point": {
+      "score_threshold": 0.25,
+      "tp": 299,
+      "fp": 167,
+      "fn": 135,
+      "precision": 0.6416309012875536,
+      "recall": 0.6889400921658986,
+      "per_class": {
+        "fully_ripened": {
+          "tp": 96,
+          "fp": 38,
+          "fn": 35,
+          "precision": 0.7164179104477612,
+          "recall": 0.732824427480916
+        },
+        "green": {
+          "tp": 173,
+          "fp": 113,
+          "fn": 68,
+          "precision": 0.6048951048951049,
+          "recall": 0.7178423236514523
+        },
+        "half_ripened": {
+          "tp": 30,
+          "fp": 16,
+          "fn": 32,
+          "precision": 0.6521739130434783,
+          "recall": 0.4838709677419355
+        }
+      }
+    },
+    "error_decomposition_at_operating_point": {
+      "localized_gt": 316,
+      "localization_recall": 0.728110599078341,
+      "correctly_classified_localized_gt": 292,
+      "classification_accuracy_given_localized": 0.9240506329113924,
+      "end_to_end_correct_rate": 0.6728110599078341,
+      "confusion_yolo_order_fully_green_half": [
+        [
+          93,
+          0,
+          7
+        ],
+        [
+          0,
+          172,
+          2
+        ],
+        [
+          14,
+          1,
+          27
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 3.7391304969787598,
+  "degenerate_predictions_dropped": 0,
+  "validation_only": false,
+  "test_sets_touched": true,
+  "evaluated_from_partitions": [
+    "external test"
+  ],
+  "flag_correction": {
+    "date": "2026-09-18",
+    "script": "scripts/correct_frozen_test_flags.py",
+    "reason": "the flags were literals in the code that wrote this record; they are now derived from what the record itself carries — the image and box counts it measured and the directories it names — matched against the partitions recounted from disk and the frozen registry in scripts/frozen_partitions.py",
+    "evidence": "metrics.images=142 and metrics.total_gt=434 match ['external test'] uniquely",
+    "signals": {
+      "counts": {
+        "partitions": [
+          "external test"
+        ],
+        "test_sets_touched": true,
+        "evidence": "metrics.images=142 and metrics.total_gt=434 match ['external test'] uniquely"
+      }
+    },
+    "replaced": {
+      "validation_only": true,
+      "test_sets_touched": false
+    },
+    "metrics_unmodified": true
+  }
+}

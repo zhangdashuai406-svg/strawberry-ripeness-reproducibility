@@ -1,0 +1,5 @@
+# Rights and reuse status
+
+The depositing author authorized MIT for this study's original code and Creative Commons Attribution 4.0 International (CC BY 4.0) for study-produced aggregate result records, source-data tables, manifests and numeric plots. MIT terms are in `LICENSE`; CC BY 4.0 terms are at https://creativecommons.org/licenses/by/4.0/legalcode.en. Attribute the named manuscript authors and identify the release version and any changes. The authorization is not a representation that every coauthor has already approved the final journal submission.
+
+Third-party datasets, Ultralytics and other software retain their own applicable terms. No commercial-source images or labels, upstream dataset archives, pretrained weights or third-party library implementation are redistributed. Historical project scripts that import third-party libraries do not relicense those libraries. A suitable software/data license must be selected only after the authors confirm rights and relevant dependency obligations.

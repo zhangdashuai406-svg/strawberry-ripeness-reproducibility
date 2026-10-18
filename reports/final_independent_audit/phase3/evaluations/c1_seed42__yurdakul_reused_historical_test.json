@@ -1,0 +1,138 @@
+{
+  "system": "d0",
+  "dataset": "yurdakul",
+  "detector": "runs/phase3_matched_20260919/c1_seed42/weights/last.pt",
+  "classifier": null,
+  "evaluated_from": {
+    "images": "data/yurdakul_turkey_frozen/all/images",
+    "labels": "data/yurdakul_turkey_frozen/all/labels"
+  },
+  "frozen_partition": "Yurdakul full released set",
+  "parameters": {
+    "detector_conf": 0.001,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "score_threshold": 0.25,
+    "d3_score": null,
+    "crop_margin": null
+  },
+  "metrics": {
+    "images": 566,
+    "total_gt": 1734,
+    "total_predictions_at_detector_floor": 12243,
+    "map50": 0.5820500330022368,
+    "map50_95": 0.362812298314743,
+    "per_class": {
+      "fully_ripened": {
+        "gt": 520,
+        "ap50": 0.5850941778171905,
+        "map50_95": 0.3968333357535902,
+        "ap_by_iou": {
+          "0.50": 0.5850941778171905,
+          "0.55": 0.5734374081856172,
+          "0.60": 0.5542296445488624,
+          "0.65": 0.5472229391464014,
+          "0.70": 0.5154513227789606,
+          "0.75": 0.4769709140396624,
+          "0.80": 0.4081786427540714,
+          "0.85": 0.24747706109175582,
+          "0.90": 0.0594291935136485,
+          "0.95": 0.0008420536597322745
+        }
+      },
+      "green": {
+        "gt": 967,
+        "ap50": 0.6446868166135221,
+        "map50_95": 0.34967231607636007,
+        "ap_by_iou": {
+          "0.50": 0.6446868166135221,
+          "0.55": 0.6192828949002397,
+          "0.60": 0.5864510801960028,
+          "0.65": 0.5211143136860048,
+          "0.70": 0.44628586428357375,
+          "0.75": 0.3432280320451781,
+          "0.80": 0.2178293529405602,
+          "0.85": 0.0965301298489067,
+          "0.90": 0.020607462671111677,
+          "0.95": 0.0007072135785007071
+        }
+      },
+      "half_ripened": {
+        "gt": 247,
+        "ap50": 0.5163691045759978,
+        "map50_95": 0.34193124311427875,
+        "ap_by_iou": {
+          "0.50": 0.5163691045759978,
+          "0.55": 0.5043685787450966,
+          "0.60": 0.4981353358095259,
+          "0.65": 0.4624070291825043,
+          "0.70": 0.4360882082280943,
+          "0.75": 0.4030696448128665,
+          "0.80": 0.33763682882687,
+          "0.85": 0.21943937154943294,
+          "0.90": 0.041798329412399214,
+          "0.95": 0.0
+        }
+      }
+    },
+    "operating_point": {
+      "score_threshold": 0.25,
+      "tp": 1067,
+      "fp": 483,
+      "fn": 667,
+      "precision": 0.6883870967741935,
+      "recall": 0.6153402537485583,
+      "per_class": {
+        "fully_ripened": {
+          "tp": 317,
+          "fp": 121,
+          "fn": 203,
+          "precision": 0.723744292237443,
+          "recall": 0.6096153846153847
+        },
+        "green": {
+          "tp": 596,
+          "fp": 239,
+          "fn": 371,
+          "precision": 0.7137724550898203,
+          "recall": 0.6163391933815926
+        },
+        "half_ripened": {
+          "tp": 154,
+          "fp": 123,
+          "fn": 93,
+          "precision": 0.555956678700361,
+          "recall": 0.6234817813765182
+        }
+      }
+    },
+    "error_decomposition_at_operating_point": {
+      "localized_gt": 1159,
+      "localization_recall": 0.668396770472895,
+      "correctly_classified_localized_gt": 1040,
+      "classification_accuracy_given_localized": 0.8973252804141502,
+      "end_to_end_correct_rate": 0.5997693194925029,
+      "confusion_yolo_order_fully_green_half": [
+        [
+          306,
+          2,
+          61
+        ],
+        [
+          2,
+          592,
+          9
+        ],
+        [
+          30,
+          15,
+          142
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 10.96038269996643,
+  "degenerate_predictions_dropped": 0,
+  "validation_only": false,
+  "test_sets_touched": true
+}

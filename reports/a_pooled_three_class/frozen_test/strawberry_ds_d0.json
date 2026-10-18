@@ -1,0 +1,156 @@
+{
+  "system": "d0",
+  "dataset": "strawberry_ds",
+  "detector": "runs/baselines/B3_yolo11n_seed42/weights/best.pt",
+  "classifier": null,
+  "parameters": {
+    "detector_conf": 0.001,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "score_threshold": 0.25,
+    "d3_score": null,
+    "crop_margin": null
+  },
+  "metrics": {
+    "images": 26,
+    "total_gt": 104,
+    "total_predictions_at_detector_floor": 304,
+    "map50": 0.602810794197512,
+    "map50_95": 0.4353696989290808,
+    "per_class": {
+      "fully_ripened": {
+        "gt": 19,
+        "ap50": 0.7722772277227723,
+        "map50_95": 0.6323282438133923,
+        "ap_by_iou": {
+          "0.50": 0.7722772277227723,
+          "0.55": 0.7722772277227723,
+          "0.60": 0.7722772277227723,
+          "0.65": 0.7722772277227723,
+          "0.70": 0.7722772277227723,
+          "0.75": 0.7267326732673268,
+          "0.80": 0.7267326732673268,
+          "0.85": 0.591057677196291,
+          "0.90": 0.41280358805111284,
+          "0.95": 0.00456968773800457
+        }
+      },
+      "green": {
+        "gt": 78,
+        "ap50": 0.610412580612338,
+        "map50_95": 0.33219669455800854,
+        "ap_by_iou": {
+          "0.50": 0.610412580612338,
+          "0.55": 0.5842556567574232,
+          "0.60": 0.5842556567574232,
+          "0.65": 0.510058346659954,
+          "0.70": 0.4277794318354891,
+          "0.75": 0.2761045666670078,
+          "0.80": 0.21085879160124352,
+          "0.85": 0.08766532761873473,
+          "0.90": 0.03057658707047175,
+          "0.95": 0.0
+        }
+      },
+      "half_ripened": {
+        "gt": 7,
+        "ap50": 0.42574257425742573,
+        "map50_95": 0.3415841584158416,
+        "ap_by_iou": {
+          "0.50": 0.42574257425742573,
+          "0.55": 0.42574257425742573,
+          "0.60": 0.42574257425742573,
+          "0.65": 0.42574257425742573,
+          "0.70": 0.42574257425742573,
+          "0.75": 0.42574257425742573,
+          "0.80": 0.42574257425742573,
+          "0.85": 0.2871287128712871,
+          "0.90": 0.1485148514851485,
+          "0.95": 0.0
+        }
+      }
+    },
+    "operating_point": {
+      "score_threshold": 0.25,
+      "tp": 71,
+      "fp": 25,
+      "fn": 33,
+      "precision": 0.7395833333333334,
+      "recall": 0.6826923076923077,
+      "per_class": {
+        "fully_ripened": {
+          "tp": 16,
+          "fp": 4,
+          "fn": 3,
+          "precision": 0.8,
+          "recall": 0.8421052631578947
+        },
+        "green": {
+          "tp": 52,
+          "fp": 21,
+          "fn": 26,
+          "precision": 0.7123287671232876,
+          "recall": 0.6666666666666666
+        },
+        "half_ripened": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.42857142857142855
+        }
+      }
+    },
+    "error_decomposition_at_operating_point": {
+      "localized_gt": 74,
+      "localization_recall": 0.7115384615384616,
+      "correctly_classified_localized_gt": 71,
+      "classification_accuracy_given_localized": 0.9594594594594594,
+      "end_to_end_correct_rate": 0.6826923076923077,
+      "confusion_yolo_order_fully_green_half": [
+        [
+          16,
+          1,
+          0
+        ],
+        [
+          0,
+          52,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 3.3084514141082764,
+  "degenerate_predictions_dropped": 0,
+  "validation_only": false,
+  "test_sets_touched": true,
+  "evaluated_from_partitions": [
+    "SDS test"
+  ],
+  "flag_correction": {
+    "date": "2026-09-18",
+    "script": "scripts/correct_frozen_test_flags.py",
+    "reason": "the flags were literals in the code that wrote this record; they are now derived from what the record itself carries — the image and box counts it measured and the directories it names — matched against the partitions recounted from disk and the frozen registry in scripts/frozen_partitions.py",
+    "evidence": "metrics.images=26 and metrics.total_gt=104 match ['SDS test'] uniquely",
+    "signals": {
+      "counts": {
+        "partitions": [
+          "SDS test"
+        ],
+        "test_sets_touched": true,
+        "evidence": "metrics.images=26 and metrics.total_gt=104 match ['SDS test'] uniquely"
+      }
+    },
+    "replaced": {
+      "validation_only": true,
+      "test_sets_touched": false
+    },
+    "metrics_unmodified": true
+  }
+}

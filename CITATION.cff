@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility package and the associated manuscript when available."
+type: software
+title: "Strawberry ripeness detection under a fixed training budget"
+version: 0.1.0
+authors:
+  - family-names: Li
+    given-names: Xinran
+  - family-names: Zhang
+    given-names: Jin
+  - family-names: Hao
+    given-names: Yao
+  - family-names: Shi
+    given-names: Jingnan
+  - family-names: Han
+    given-names: Shuang
+license: MIT
+abstract: "Original code and aggregate evidence supporting fixed-budget cross-source strawberry ripeness detection. Code uses MIT; study-produced aggregate data and numeric figures use CC BY 4.0. Restricted images and annotations are not included."

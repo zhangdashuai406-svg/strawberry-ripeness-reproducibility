@@ -1,0 +1,7 @@
+arm,seed,checkpoint,checkpoint_sha256,epochs,train_batches,optimizer_step_calls,successful_updates,amp_skips
+c1,42,runs/phase3_matched_20260919/c1_seed42/weights/last.pt,2a9f153475ccd26fe3c4b4ac403b3dbaf19d6262d032995e6692804a770d3eea,100,29800,3888,3883,5
+c1,43,runs/phase3_matched_20260919/c1_seed43/weights/last.pt,fb10b19e23ebd8d59a5ed26af35ea6cf23a04faf9342511989f44641f4f51fc6,100,29800,3888,3884,4
+c1,44,runs/phase3_matched_20260919/c1_seed44/weights/last.pt,2de4f83b5430fd6dabad399f955cd355049eaa39492646daa68479f4c7d71484,100,29800,3888,3883,5
+a1_fixed,42,runs/phase3_matched_20260919/a1_fixed_seed42/weights/last.pt,6781fc097678105610262c6975116afddc85ce1ed7495ac53c8a57999bd16afa,100,29800,3888,3883,5
+a1_fixed,43,runs/phase3_matched_20260919/a1_fixed_seed43/weights/last.pt,4a44ef753a0a18a21af1cad0b0f2fdc47cf89645a793d072148a3b943208d7fa,100,29800,3888,3883,5
+a1_fixed,44,runs/phase3_matched_20260919/a1_fixed_seed44/weights/last.pt,d2e2f66a29b9724835983df63e6e695126b7c605e945b89212ed154c01d88c6c,100,29800,3888,3883,5

@@ -1,0 +1,10 @@
+{
+  "python": "3.11.15",
+  "torch": "2.2.2+cu121",
+  "ultralytics": "8.4.60",
+  "numpy": "1.26.4",
+  "opencv": "4.13.0",
+  "cuda_runtime": "12.1",
+  "cudnn": 8801,
+  "note": "Recorded experiment environment, not a new cross-platform compatibility guarantee."
+}

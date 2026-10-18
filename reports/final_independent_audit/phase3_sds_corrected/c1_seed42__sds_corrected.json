@@ -1,0 +1,160 @@
+{
+  "repair_status": "CORRECTED_NATIVE_SDS_TEST",
+  "model_name": "c1",
+  "seed": 42,
+  "detector": "runs/phase3_matched_20260919/c1_seed42/weights/last.pt",
+  "checkpoint_sha256": "2a9f153475ccd26fe3c4b4ac403b3dbaf19d6262d032995e6692804a770d3eea",
+  "evaluated_from": {
+    "images": "upstream_workspace/strawberry-DS/test/images",
+    "labels": "upstream_workspace/strawberry-DS/test/labels",
+    "dataset_yaml": "upstream_workspace/strawberry-DS/data.yaml",
+    "dataset_yaml_sha256": "667bd97edb2b12195e6e8c6b6503371dc0d9b19cd4841b01b955fcc6520f1400"
+  },
+  "dataset_manifest_sha256": "17b5a0e107d71b6dd20e6717ff5febc1c6211cdb8a0b16b25a16c3854db114a2",
+  "dataset_identity": {
+    "images": 26,
+    "labels": 26,
+    "total_gt": 104,
+    "gt_fully_green_half": [
+      19,
+      78,
+      7
+    ],
+    "manifest_sha256": "17b5a0e107d71b6dd20e6717ff5febc1c6211cdb8a0b16b25a16c3854db114a2"
+  },
+  "label_ontology": "native_six_class",
+  "class_order": {
+    "0": "fully_ripened",
+    "1": "green",
+    "2": "half_ripened"
+  },
+  "parameters": {
+    "system": "d0",
+    "detector_conf": 0.001,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "batch": 8,
+    "score_threshold": 0.25,
+    "match_iou": 0.5
+  },
+  "script_version": "phase3_sds_corrected_eval_v2",
+  "script_sha256": "6987aed72f6cbdf7488130cb967113b5d1693c6a3bbb3255380f4e74062323f8",
+  "executed_at_utc": "2026-09-20T10:57:55.606984+00:00",
+  "metrics": {
+    "images": 26,
+    "total_gt": 104,
+    "total_predictions_at_detector_floor": 369,
+    "map50": 0.5968851702823552,
+    "map50_95": 0.4353750540102321,
+    "per_class": {
+      "fully_ripened": {
+        "gt": 19,
+        "ap50": 0.738913891389139,
+        "map50_95": 0.6126335443694746,
+        "ap_by_iou": {
+          "0.50": 0.738913891389139,
+          "0.55": 0.738913891389139,
+          "0.60": 0.7006600660066008,
+          "0.65": 0.7006600660066008,
+          "0.70": 0.7006600660066008,
+          "0.75": 0.7006600660066008,
+          "0.80": 0.7006600660066008,
+          "0.85": 0.6420320603488919,
+          "0.90": 0.3797343550144488,
+          "0.95": 0.12344091552012344
+        }
+      },
+      "green": {
+        "gt": 78,
+        "ap50": 0.625999045200501,
+        "map50_95": 0.36642891139059464,
+        "ap_by_iou": {
+          "0.50": 0.625999045200501,
+          "0.55": 0.6031656785347734,
+          "0.60": 0.5902440001213966,
+          "0.65": 0.5529303843772195,
+          "0.70": 0.4617841919216272,
+          "0.75": 0.3782701007296944,
+          "0.80": 0.2914510931131289,
+          "0.85": 0.11659737804056171,
+          "0.90": 0.04384724186704385,
+          "0.95": 0.0
+        }
+      },
+      "half_ripened": {
+        "gt": 7,
+        "ap50": 0.42574257425742573,
+        "map50_95": 0.32706270627062706,
+        "ap_by_iou": {
+          "0.50": 0.42574257425742573,
+          "0.55": 0.42574257425742573,
+          "0.60": 0.42574257425742573,
+          "0.65": 0.42574257425742573,
+          "0.70": 0.42574257425742573,
+          "0.75": 0.42574257425742573,
+          "0.80": 0.42574257425742573,
+          "0.85": 0.1914191419141914,
+          "0.90": 0.04950495049504951,
+          "0.95": 0.04950495049504951
+        }
+      }
+    },
+    "operating_point": {
+      "score_threshold": 0.25,
+      "tp": 75,
+      "fp": 29,
+      "fn": 29,
+      "precision": 0.7211538461538461,
+      "recall": 0.7211538461538461,
+      "per_class": {
+        "fully_ripened": {
+          "tp": 16,
+          "fp": 5,
+          "fn": 3,
+          "precision": 0.7619047619047619,
+          "recall": 0.8421052631578947
+        },
+        "green": {
+          "tp": 56,
+          "fp": 24,
+          "fn": 22,
+          "precision": 0.7,
+          "recall": 0.717948717948718
+        },
+        "half_ripened": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 4,
+          "precision": 1.0,
+          "recall": 0.42857142857142855
+        }
+      }
+    },
+    "error_decomposition_at_operating_point": {
+      "localized_gt": 78,
+      "localization_recall": 0.75,
+      "correctly_classified_localized_gt": 75,
+      "classification_accuracy_given_localized": 0.9615384615384616,
+      "end_to_end_correct_rate": 0.7211538461538461,
+      "confusion_yolo_order_fully_green_half": [
+        [
+          16,
+          1,
+          0
+        ],
+        [
+          0,
+          56,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 2.6735963821411133,
+  "degenerate_predictions_dropped": 0
+}

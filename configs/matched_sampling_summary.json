@@ -1,0 +1,62 @@
+{
+  "selection": {
+    "method": "SHA-256 rank of salt + merchant train image filename; first 172; label-blind; without replacement",
+    "salt": "phase2-c1-repeat-v1",
+    "base_unique_images": 2208,
+    "repeat_slots": 172,
+    "c1_epoch_images": 2380,
+    "manifest": "reports/final_independent_audit/phase2/c1_repeat_manifest.csv",
+    "manifest_sha256": "6bdd8c3512c953e1f1a10e36e512cebb1a84f80d1c107cfe823dbb824170a322"
+  },
+  "class_order": {
+    "0": "fully_ripened",
+    "1": "green",
+    "2": "half_ripened"
+  },
+  "merchant_original_counts": {
+    "0": 1495,
+    "1": 6677,
+    "2": 2077
+  },
+  "merchant_repeat_slot_counts": {
+    "0": 112,
+    "1": 482,
+    "2": 148
+  },
+  "c1_counts": {
+    "0": 1607,
+    "1": 7159,
+    "2": 2225
+  },
+  "a1_fixed_counts": {
+    "0": 1665,
+    "1": 7167,
+    "2": 2171
+  },
+  "merchant_original_ratios": {
+    "0": 0.14586788955020003,
+    "1": 0.6514781929944384,
+    "2": 0.2026539174553615
+  },
+  "c1_ratios": {
+    "0": 0.14621053589300337,
+    "1": 0.6513511054499136,
+    "2": 0.20243835865708307
+  },
+  "a1_fixed_ratios": {
+    "0": 0.15132236662728346,
+    "1": 0.6513678087794238,
+    "2": 0.19730982459329274
+  },
+  "c1_minus_a1_counts": {
+    "0": -58,
+    "1": -8,
+    "2": 54
+  },
+  "scope_guards": {
+    "merchant_train_only": true,
+    "merchant_validation_or_test_sampled": false,
+    "other_source_sampled": false,
+    "historical_dataset_modified": false
+  }
+}

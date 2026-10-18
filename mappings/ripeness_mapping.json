@@ -1,0 +1,29 @@
+{
+  "target_order": {
+    "0": "fully_ripened",
+    "1": "green",
+    "2": "half_ripened"
+  },
+  "sds_native_id_to_target": {
+    "0": 2,
+    "1": 1,
+    "2": 2,
+    "3": 0,
+    "4": 2,
+    "5": 1
+  },
+  "sds_stage_to_target": {
+    "Early-Turning": 2,
+    "Green": 1,
+    "Late-Turning": 2,
+    "Red": 0,
+    "Turning": 2,
+    "White": 1
+  },
+  "yurdakul_native_id_to_target": {
+    "0": 0,
+    "1": 2,
+    "2": 1
+  },
+  "rule_status": "deterministic preprocessing; not independently expert-validated"
+}

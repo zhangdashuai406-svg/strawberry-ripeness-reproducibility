@@ -1,0 +1,13 @@
+source,seed,b3_map50_95,a1_map50_95,paired_delta_a1_minus_b3,b3_record,a1_record
+merchant,42,0.8004011644176883,0.8107922545839461,0.010391090166257833,reports/a_pooled_three_class/frozen_test/merchant_d0.json,reports/a_pooled_three_class/frozen_test/42_merchant_a1.json
+merchant,43,0.7926287034709613,0.8027352455870961,0.01010654211613482,reports/a_pooled_three_class/baseline_multiseed/43_merchant_b3.json,reports/a_pooled_three_class/frozen_test/43_merchant_a1.json
+merchant,44,0.8370514899475042,0.8401719219681961,0.003120432020691899,reports/a_pooled_three_class/baseline_multiseed/44_merchant_b3.json,reports/a_pooled_three_class/frozen_test/44_merchant_a1.json
+external,42,0.36007445049725,0.40300713972379576,0.04293268922654575,reports/a_pooled_three_class/frozen_test/external_d0.json,reports/a_pooled_three_class/frozen_test/42_external_a1.json
+external,43,0.35449023316410017,0.3926831064304941,0.03819287326639392,reports/a_pooled_three_class/baseline_multiseed/43_external_b3.json,reports/a_pooled_three_class/frozen_test/43_external_a1.json
+external,44,0.39664793000136234,0.4179224442432969,0.02127451424193455,reports/a_pooled_three_class/baseline_multiseed/44_external_b3.json,reports/a_pooled_three_class/frozen_test/44_external_a1.json
+strawberry_ds,42,0.4353696989290808,0.567105115697228,0.1317354167681472,reports/a_pooled_three_class/frozen_test/strawberry_ds_d0.json,reports/a_pooled_three_class/frozen_test/42_strawberry_ds_a1.json
+strawberry_ds,43,0.4335582270903883,0.5435242800161365,0.10996605292574818,reports/a_pooled_three_class/baseline_multiseed/43_strawberry_ds_b3.json,reports/a_pooled_three_class/frozen_test/43_strawberry_ds_a1.json
+strawberry_ds,44,0.46753599033362936,0.5759261537839766,0.10839016345034724,reports/a_pooled_three_class/baseline_multiseed/44_strawberry_ds_b3.json,reports/a_pooled_three_class/frozen_test/44_strawberry_ds_a1.json
+yurdakul,42,0.3456227464642749,0.3910279831990519,0.04540523673477703,reports/a_pooled_three_class/fourth_test_yurdakul/b3.json,reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed42.json
+yurdakul,43,0.35082177598113146,0.39468797088388,0.04386619490274857,reports/a_pooled_three_class/baseline_multiseed/43_yurdakul_b3.json,reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed43.json
+yurdakul,44,0.38999739495666325,0.4160867728181927,0.026089377861529428,reports/a_pooled_three_class/baseline_multiseed/44_yurdakul_b3.json,reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed44.json

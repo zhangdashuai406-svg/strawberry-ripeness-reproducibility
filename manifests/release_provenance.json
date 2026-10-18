@@ -1,0 +1,667 @@
+[
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/corrected_phase3_seed_metrics.csv",
+    "source_sha256": "20f2e54deec588200a5528e6ef160376cc747e8386ba6f663f61ef6e7f9ad698",
+    "released_path": "results/corrected_phase3/corrected_phase3_seed_metrics.csv",
+    "release_sha256": "610a98b7b7bf0a164503d92433dd59b680b4e49bb73289e32a8d7dc482ff6e6c",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/corrected_phase3_matched_deltas.csv",
+    "source_sha256": "56ca8a1a33374fd6c80d1074ac6e7044e5bf3870e800d2404c561ad6ad8c2430",
+    "released_path": "results/corrected_phase3/corrected_phase3_matched_deltas.csv",
+    "release_sha256": "83ffdb7e54c5c0bacef6ecbc5db3685187104b8e4b8b044db5cb633e40611b13",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/corrected_phase3_action_risk.csv",
+    "source_sha256": "4f5298fbd26f0652888eea27b177cb7dab03a5899d43ef23cf5caee57eed83a3",
+    "released_path": "results/corrected_phase3/corrected_phase3_action_risk.csv",
+    "release_sha256": "bf9e1ad28bb09ad7c08ef58072c59a47c6668cbeab326ccdcab38be90c1b41c5",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/invalid_evaluation_manifest.csv",
+    "source_sha256": "412309e59874f3a6a8e249c9d60daa3cc933b0b7c43b70228c742f8fe2b0e0bf",
+    "released_path": "results/corrected_phase3/invalid_evaluation_manifest.csv",
+    "release_sha256": "071cfa18675a5e64a50dcbeb9d455d9b691dd308408b76e629d59915c55b2fa1",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/sds_test_file_manifest.csv",
+    "source_sha256": "bfce0c827e16157d543ecdbbccb329e540f7be0e98595e3fd5192b40810737e7",
+    "released_path": "results/corrected_phase3/sds_test_file_manifest.csv",
+    "release_sha256": "32c927a07b6c89f97a8b25c8665c1d89bf33ab13a3b08666abeb182e6308a36d",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed42__external_development.json",
+    "source_sha256": "bcc07e3e40b97b9277e1751161580c4bdde72ceb6ca89dd4cf152e82ff070122",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed42__external_development.json",
+    "release_sha256": "ffac88d1e0905366beb45af2ede9f753eefcc2b40363cdd11964b885d65a24e6",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed42__merchant_source_development.json",
+    "source_sha256": "e4a958e184475f788f22a888c754b8f980507f8b8742f1e6ed3f32a1bb2ec608",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed42__merchant_source_development.json",
+    "release_sha256": "813952f4c7883e3643bafc970963c131950fa14eeb39c38b7e16cfd8ad073519",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed42__merchant_reused_historical_test.json",
+    "source_sha256": "790c5cbdf5b58ea5f45e048d59fb098c36e23447329bfff267e6200f3b23cdb3",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed42__merchant_reused_historical_test.json",
+    "release_sha256": "e6b4507cb8dcc480ceeca784c1166328d5712b76a24920514f1fc30ddcd0ccb8",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed42__external_reused_historical_test.json",
+    "source_sha256": "ceda3356ec6d54a24e402dc5e7f1eac2c1e629450d9fd1d4624ed98a57402265",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed42__external_reused_historical_test.json",
+    "release_sha256": "57bd89adc8765cf2b91f5f75878d789dfbf711ad11ece5b5182869ffe21a65c2",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/c1_seed42__sds_corrected.json",
+    "source_sha256": "83df3d9e0d1f3d8c29655f34b1ff190e90bb665055bef9ee2db6fef5edc1084a",
+    "released_path": "reports/final_independent_audit/phase3_sds_corrected/c1_seed42__sds_corrected.json",
+    "release_sha256": "a2080fd6464a51a85b559636ad15661e8c6b3bf6e8774407ea91c42f4f8dbd1f",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed42__yurdakul_reused_historical_test.json",
+    "source_sha256": "55b004729ade494743490dd741c083b7b8c932abf1991fefdb69a7e5c197decb",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed42__yurdakul_reused_historical_test.json",
+    "release_sha256": "fda564fb758edafa8163acc789c4e44957a90bde8a53ecb708503cfb49ad9c07",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed43__external_development.json",
+    "source_sha256": "4f7b88340305c67e1d421be23da01f89bc2b86f406c35566aef50447a0d61a0b",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed43__external_development.json",
+    "release_sha256": "4a5cd95418eee105db8af7e47e5cc11b3fb2ab105d212980e88891e5f571e8f4",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed43__merchant_source_development.json",
+    "source_sha256": "c17453bc011a2892fb6ca9927803a16c4757f94f069f939de60eea797bd62fd8",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed43__merchant_source_development.json",
+    "release_sha256": "5618f9c0b04f7c6d44582ee64795a5c6901c81f96eae88db1e494fc5f3628356",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed43__merchant_reused_historical_test.json",
+    "source_sha256": "07ea3473d5cc56bdd8dddfb761f5d7856f8ef24f611ad0d6e047ae939f0898de",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed43__merchant_reused_historical_test.json",
+    "release_sha256": "8f1cf448e80c2b319b1c46947c9bfcf5d4672ec8a357fde6108120925894ccaa",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed43__external_reused_historical_test.json",
+    "source_sha256": "ea70e638a5c6321dcd2f918862a7e93da12db3406312125c0572b5e870ab12c2",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed43__external_reused_historical_test.json",
+    "release_sha256": "6317c66a6e0def9a7bed74034df5b9af8f79b6c966e527c3b41ce83cc8b302c7",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/c1_seed43__sds_corrected.json",
+    "source_sha256": "c2d2446858a8508fdd41eceaa673bc37b7e4566c13f1f5ef318144bc61ea9528",
+    "released_path": "reports/final_independent_audit/phase3_sds_corrected/c1_seed43__sds_corrected.json",
+    "release_sha256": "370f88c27b5c0afd6b1ceb53d36e3e219642e3a1c83c7c77c691bb51bbd9dd99",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed43__yurdakul_reused_historical_test.json",
+    "source_sha256": "3d16d1213a889df9a93dec21704bb1860258fb4593d50a3d8a9be983a3cc86bc",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed43__yurdakul_reused_historical_test.json",
+    "release_sha256": "4e622af16dae2351caf860c4bdaefc613ed753797ab421cacf51ce0472aba5c9",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed44__external_development.json",
+    "source_sha256": "6d9115763f35c52891168cf6abed64fe63a39d0ac41fa14e5519a13af85539d6",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed44__external_development.json",
+    "release_sha256": "2f9d09266f35e92b87d1c542cb6f16d35b8be04795fcbc23d9b4c45b086159c2",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed44__merchant_source_development.json",
+    "source_sha256": "fb8064d6f4d647695c3c125a4b400818683b5c4e4f61e95540faf6d89c6ef4aa",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed44__merchant_source_development.json",
+    "release_sha256": "0265e01182783bdb0ac19f6e2868c142fb8c2d4115807bda162a5b6d094bbc58",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed44__merchant_reused_historical_test.json",
+    "source_sha256": "6431ed4d0c64ff43ec5c887268e906553ab9feacde16822fe0179b9dac1768e5",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed44__merchant_reused_historical_test.json",
+    "release_sha256": "aa8bc5ed10b9a7abe45f878a6fab0dcc101c102814924d37f1925cf8834c7978",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed44__external_reused_historical_test.json",
+    "source_sha256": "a8172b09a7aa775cc346aed37faf4614c42b2becb97937c070472535e220d47f",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed44__external_reused_historical_test.json",
+    "release_sha256": "c824e71871668deaa2a512dfd6292a0a87ff6e7cff04f548d900f382c9d166e5",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/c1_seed44__sds_corrected.json",
+    "source_sha256": "5908fc23f1fb96681e6ef387117284f4f9f65b5b95d02b3a3d65924e297b3aa5",
+    "released_path": "reports/final_independent_audit/phase3_sds_corrected/c1_seed44__sds_corrected.json",
+    "release_sha256": "1db04c688a344c3afa226b3cd165a520eef57ad79e170ce94d0fc119d474eeaf",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/c1_seed44__yurdakul_reused_historical_test.json",
+    "source_sha256": "0f52c8095d5c9222190811a83b1f442ff1f80aa9ae8c369c7426656aabc97323",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/c1_seed44__yurdakul_reused_historical_test.json",
+    "release_sha256": "4c251d6740c661bccdf17854fb7f66ec1db289d509f6c0e9b70c4b3e46879fd0",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__external_development.json",
+    "source_sha256": "fa6095eb3e2a4c942d0ead89569d86c11f6eb3fba34752cb71db9f265aa48f83",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__external_development.json",
+    "release_sha256": "27a2f68b7810cc0dfa9f69d8c31c2b31b18bdd10e3f9253bc7c08ced030c61c1",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__merchant_source_development.json",
+    "source_sha256": "b80179c717f2fb37fe69b0a53c5500171351e96c89d46e550b25e6c2fc3ba1a0",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__merchant_source_development.json",
+    "release_sha256": "2f14357d2ab9ef814d15f0039a76ba5962a95e92c9e9ef3fd220b3c19e3dcd36",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__merchant_reused_historical_test.json",
+    "source_sha256": "3a2161424bc0570c987c9bf50cff2291cdbd4f5077f49c31b461e5404bbe14a2",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__merchant_reused_historical_test.json",
+    "release_sha256": "2363a341135ab35021a5e84b31f51aad9c2bf34aaf79f3ecb78ee0bd6c20fbce",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__external_reused_historical_test.json",
+    "source_sha256": "2ea3b0e8879ce5be779345fd1eff365087dda2feef3f1cb953bc3f23882939ce",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__external_reused_historical_test.json",
+    "release_sha256": "b3d62353cc9c47aa820fe2c5f53f7e450a64a840bd0bc5a0aa142675629005bc",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/a1_fixed_seed42__sds_corrected.json",
+    "source_sha256": "f9b5701286203a08b293421a6f39e6c8486721503d6bda022e6274fba7e93158",
+    "released_path": "reports/final_independent_audit/phase3_sds_corrected/a1_fixed_seed42__sds_corrected.json",
+    "release_sha256": "b24d3bf359da5ee31b862e55a86ccaddaffa397335f8e5e888ae204be5f784dd",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__yurdakul_reused_historical_test.json",
+    "source_sha256": "764615320872efd494611331ac35cf18e3286dec4fb7d9ae6e734174051a838e",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed42__yurdakul_reused_historical_test.json",
+    "release_sha256": "ec622a2c416a6546ec548e083536021078ffb19bc20bcbf245c7ef3dd3e89eeb",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__external_development.json",
+    "source_sha256": "d9362bf4d813d05dff9c067706b5bf146c6a17fb9b294f595cae78a187be5ec9",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__external_development.json",
+    "release_sha256": "9bb83216542235dea9fdd39849a560848bed13a9ca26da3ba24a3ebae994edc4",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__merchant_source_development.json",
+    "source_sha256": "17a776268153c761cbb54d64ac0e8843983315567981b8148967bec21cd28cef",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__merchant_source_development.json",
+    "release_sha256": "a3999f0c1d92f2872d775522ac6956850e8349328fbdc5e7e77fcace4195fc25",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__merchant_reused_historical_test.json",
+    "source_sha256": "373f924bbadbcde424974ed75126266d9eb7ba1e81956789173372fdbfcec929",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__merchant_reused_historical_test.json",
+    "release_sha256": "4c8ddbe350e945d5a520c52fa73624287f85fd0d2e441d3cbb81ce3b31d78c9e",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__external_reused_historical_test.json",
+    "source_sha256": "3ce73eb77aacda3dff873bf400c826d93f47d76b7cd2915d0c57799e9a48024f",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__external_reused_historical_test.json",
+    "release_sha256": "e0a69ce518855c055355243cb4ea6ca19c1ecaa90e7dc00e3f310f4951acdb99",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/a1_fixed_seed43__sds_corrected.json",
+    "source_sha256": "3379fd957384a6b0f7cbaa6676f0d43881ae0117aa1d0086c8d650f7eb458580",
+    "released_path": "reports/final_independent_audit/phase3_sds_corrected/a1_fixed_seed43__sds_corrected.json",
+    "release_sha256": "868d3edfa6b16039f38c89288b9ea2d1fa429ab5bf5aa987af8c7fc0b966e97e",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__yurdakul_reused_historical_test.json",
+    "source_sha256": "62f8496eec77606f7e394ac364f1a97480965b6dcc289510265ae56e590a321f",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed43__yurdakul_reused_historical_test.json",
+    "release_sha256": "3270cbd313c2a71e1c7aef1bbd722fd6b1985ec5874d915b4f35ab647a3277bd",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__external_development.json",
+    "source_sha256": "c13769921a94b2f0b399a3b2ef2c1b8bb5e791097ab3374b37159ea87982aa5f",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__external_development.json",
+    "release_sha256": "7a4d6232dbdce9f19512497930fab10ec377344e06a2e5c9064baa6daf2d2ff8",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__merchant_source_development.json",
+    "source_sha256": "c93eed602066a6dbf13947c86dd5986b713ca911fe4bc8c2fb867325c09ecaa4",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__merchant_source_development.json",
+    "release_sha256": "a0991ec6eb47aea6b589dc1116f6fb00803a31e39039796c14d3c63fcf391b26",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__merchant_reused_historical_test.json",
+    "source_sha256": "e5ee872e1f56bc8cf580494b4ff1a767180697d8a649064be7ac5b9b3e66b1bb",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__merchant_reused_historical_test.json",
+    "release_sha256": "b0aa1dc70e811ced5a089af2426b6258c108983413376291d8e97cabe6f54b75",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__external_reused_historical_test.json",
+    "source_sha256": "8a36a32f00cc68cab1041f3acd3df1da346979264556cbe4e98bf0dfc48ded82",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__external_reused_historical_test.json",
+    "release_sha256": "a26b65bb31a421e56adc06cc01977e66c425e6c2d1e5873137fa80ad3f1a770f",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3_sds_corrected/a1_fixed_seed44__sds_corrected.json",
+    "source_sha256": "46abfbc0f4d75f53b03927e950e7247215b434ebf57d3f6db5628d3158378af5",
+    "released_path": "reports/final_independent_audit/phase3_sds_corrected/a1_fixed_seed44__sds_corrected.json",
+    "release_sha256": "c9f29b3845406a522a234236381f0516a577dc23ee5c04b61dc92f1d7e2877af",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__yurdakul_reused_historical_test.json",
+    "source_sha256": "ee15153091d4ffef8a39204441525dd9f7151964659ec17127ae2831cbee3dcb",
+    "released_path": "reports/final_independent_audit/phase3/evaluations/a1_fixed_seed44__yurdakul_reused_historical_test.json",
+    "release_sha256": "36b0a805c10c35b6af41cc073243c87f38aa67f2b4c2cf8900d0fde8ed1d9372",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase2/primary_seed_matched_results.csv",
+    "source_sha256": "a24c6bd687e8e638233ad1ccb9b561e28965316f83bae9788d00f2c88dfd0c5d",
+    "released_path": "results/historical_a1_b3/primary_seed_matched_results.csv",
+    "release_sha256": "b16a720f5f266580d353a447ee713328c20093453a6d86f19e0feebe51268c95",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/43_external_b3.json",
+    "source_sha256": "935e62a44a938680a8b45e00766c03a0bfd0c91194b86e0113134df4dc9962c4",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/43_external_b3.json",
+    "release_sha256": "019ab06598cddab6b1e180f873d20f6dcb693978f955f3a62eff5f91c9911d1a",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/43_merchant_b3.json",
+    "source_sha256": "d896d0dca675963cdb99caf433f67737966fe7dd582e2ac6588c8a55e0c2a743",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/43_merchant_b3.json",
+    "release_sha256": "cc1f59be5a95669301bc6e469e17e5f052cb6d290031483397c938a151aa11fa",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/43_strawberry_ds_b3.json",
+    "source_sha256": "82f3a70a57987106cbb2eae7dbbe26f0943024d133f405e068239dc0f925007b",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/43_strawberry_ds_b3.json",
+    "release_sha256": "92ba7ee640e43f0efe60bcf6cf95464333d8b2a27c2af8d614e952eb98e6ce9f",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/43_yurdakul_b3.json",
+    "source_sha256": "c46eb0668b43647af722c711b5dd03efe86c31914d309c06484f64736cdf95e6",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/43_yurdakul_b3.json",
+    "release_sha256": "510e93a5dc65ab8f8577a9661280ff763a91e2387a25c7e74e181c9900af6d74",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/44_external_b3.json",
+    "source_sha256": "0fd520d34ebd5679e71dd75cf098e9352c690aa76c0863da9d2db84a66a4e206",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/44_external_b3.json",
+    "release_sha256": "1f5b3d4790dcd3726ff6cdef19c2b82d2802235328f1ecd5b39daed656b7796c",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/44_merchant_b3.json",
+    "source_sha256": "54e65dc4a39b23f0c2f64106476213e0ee506586bd8038b8744f6dbef8ec1776",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/44_merchant_b3.json",
+    "release_sha256": "e1d98065895fabaf94e80318e157cecc080ae2d787cfc0c93b2b7218c7410dfe",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/44_strawberry_ds_b3.json",
+    "source_sha256": "69814fc996bbfd27f51e0b2e85e668b62f77e12d01436149d8bb8a14944b1b1d",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/44_strawberry_ds_b3.json",
+    "release_sha256": "6e7c64576564b8ab91da99a5a7b0955cec4e4e888480f047eb4d8006f48606a5",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/baseline_multiseed/44_yurdakul_b3.json",
+    "source_sha256": "bd92af041442eb4271fb189b90acfa8890d3ecb330d02150044816abd7bc7945",
+    "released_path": "reports/a_pooled_three_class/baseline_multiseed/44_yurdakul_b3.json",
+    "release_sha256": "f6655cf5be1cc449285d775858985c9911c12e68748d03c60caf050771cc70b0",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed42.json",
+    "source_sha256": "5888b6ce2f5a1da16525c45ec7d7b8266a9b9ccfa9846239cf887f606d0b8b95",
+    "released_path": "reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed42.json",
+    "release_sha256": "6e5e104b7d7b3b62fe3202fd03ff196d7591fda12c6f9a00f8262054e44bd935",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed43.json",
+    "source_sha256": "4b694805dd6c6816db693478f14b8fe57b1bf85fa13a96d1972efb3bfbb3d7f6",
+    "released_path": "reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed43.json",
+    "release_sha256": "b2f8849777e4726f737b1707cd7f0056ea6abacba7680076d6618b5a52ec11c6",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed44.json",
+    "source_sha256": "6a9b4016c0b02191d13752d17e21b2a0aec6590cf77295fee3d79b37403c06e4",
+    "released_path": "reports/a_pooled_three_class/fourth_test_yurdakul/a1_seed44.json",
+    "release_sha256": "d1fad5bfceaabed113fb5e75974466ec174480fbae5fc4a2a4a2b6ed27fa1020",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/fourth_test_yurdakul/b3.json",
+    "source_sha256": "9c655a7c1df4008e2dcfddee89649fb27508aa7a4ab838dd0761cf631a7d540c",
+    "released_path": "reports/a_pooled_three_class/fourth_test_yurdakul/b3.json",
+    "release_sha256": "7df22171d352d43f4537b747b2eb42de06e4bd3f5cb2cd2240cd41cf0ada4172",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/42_external_a1.json",
+    "source_sha256": "54cc80ed181ffa8511678d224d82890502e681d05b3cc69fbf0c337f79b50cab",
+    "released_path": "reports/a_pooled_three_class/frozen_test/42_external_a1.json",
+    "release_sha256": "cbe97b58c54909b24e0aefc96f954e0d978f077f7d18b6d4733ddb83d40d9da3",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/42_merchant_a1.json",
+    "source_sha256": "2ed8a8fa6a9513987f53173c4ed521e128ac511fd422bf645028d45032be21f7",
+    "released_path": "reports/a_pooled_three_class/frozen_test/42_merchant_a1.json",
+    "release_sha256": "da988967545bf042edb321f3668e53c009a50004ec40fa7e30b3b45ad12cb86a",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/42_strawberry_ds_a1.json",
+    "source_sha256": "e692788c8879385a4c55d8f4b5c82f0703661e475c02c0ec07a44b4e8f0f0787",
+    "released_path": "reports/a_pooled_three_class/frozen_test/42_strawberry_ds_a1.json",
+    "release_sha256": "4c0b5826127814ad7c618b286669f15ab787414c21ffff0832324080ee4134a6",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/43_external_a1.json",
+    "source_sha256": "da484b8fab601c5daf162eb4d341b20692337e75ea6cdf7db1a170754de7a14a",
+    "released_path": "reports/a_pooled_three_class/frozen_test/43_external_a1.json",
+    "release_sha256": "faa4179e75205db53256a03e5c7476a67bfbaa55ee66a269e33d881d31166cc9",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/43_merchant_a1.json",
+    "source_sha256": "3cc56991385d06a2ce5ce014718ad5d4f28acfffbec39943af6f7e9b91236828",
+    "released_path": "reports/a_pooled_three_class/frozen_test/43_merchant_a1.json",
+    "release_sha256": "b96fb6cdee2c04e08736f195df91d14d1e429c81762909936118e8a452ea55e6",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/43_strawberry_ds_a1.json",
+    "source_sha256": "0acb3b228ff86cf15b834e9ce4adeea399ac6bef2543ed25699745c4975d2213",
+    "released_path": "reports/a_pooled_three_class/frozen_test/43_strawberry_ds_a1.json",
+    "release_sha256": "7cff89cf64a80b052803a883911d2c40dff50cfd6272a078aca59ff3e0ea81c6",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/44_external_a1.json",
+    "source_sha256": "bc3731ff8826280ae8d9ff6f793a09b5cd68f010a4cdf95adefa2365a194a0fd",
+    "released_path": "reports/a_pooled_three_class/frozen_test/44_external_a1.json",
+    "release_sha256": "3a07de02ecbc7405b3b335287198665e54179f9affee0b72cb751999d7df7fd0",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/44_merchant_a1.json",
+    "source_sha256": "29cbad67abd4d37327f9ea2e967d79a7bc3244a2f6f21f5fd1092d42e7e82ac9",
+    "released_path": "reports/a_pooled_three_class/frozen_test/44_merchant_a1.json",
+    "release_sha256": "8dd3cbce26555bbef11ca8958e74458f9539c8ba971b0c24a0f32340ea89ae9a",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/44_strawberry_ds_a1.json",
+    "source_sha256": "7c7cae64d93df9d5290cb8de36fd23b47457def1f4d37a6e2ae37828fecac78b",
+    "released_path": "reports/a_pooled_three_class/frozen_test/44_strawberry_ds_a1.json",
+    "release_sha256": "cfbda8a447abc8afec061750bf50b5ee2ec4d96a96edbaa1f12fed9e0c0c2d07",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/external_d0.json",
+    "source_sha256": "66c01bbee394b57fbbbd7045b21874ea17e9e9243b12efbf6b1a67b8e4bdd632",
+    "released_path": "reports/a_pooled_three_class/frozen_test/external_d0.json",
+    "release_sha256": "d04be1da375d903a2e6f5da70c5dc6864d4b320f84771bf78264f047ca152318",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/merchant_d0.json",
+    "source_sha256": "ca41d2d0911989bdce07005a3a3680c842c3ee14b4eeb5af9f180811c8bf4df0",
+    "released_path": "reports/a_pooled_three_class/frozen_test/merchant_d0.json",
+    "release_sha256": "4c8b8046cde159b6e68ae94e86a26d8c4b108957e124e14b997705ec2a996110",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/a_pooled_three_class/frozen_test/strawberry_ds_d0.json",
+    "source_sha256": "79e3e8186e9a3d8cfc3280d038150b237fc94cb86f107a355a0f596fd1ee576c",
+    "released_path": "reports/a_pooled_three_class/frozen_test/strawberry_ds_d0.json",
+    "release_sha256": "aef8bd0ad440c2ddfe981a6ec305c48495c14721e26b0a0c3934e6433695fd47",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/final_independent_audit/phase3/phase3_run_audit.csv",
+    "source_sha256": "2229c9d73bf0d2fb64311c1574964c6f908d32e909024303b28ede342e256fc7",
+    "released_path": "manifests/checkpoint_and_update_audit.csv",
+    "release_sha256": "3d6ed7ad883adfcaf1214a21a406053105ba14c5118238c8d186ae994d8be84e",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/final_independent_audit/phase2/matched_sampling_summary.json",
+    "source_sha256": "2cbabce7fda0bee173c0db486fc914589b1108f8ae82e7836d1fbd0780b8eb00",
+    "released_path": "configs/matched_sampling_summary.json",
+    "release_sha256": "af3e2aa784cf21f9e7d01ca7e2330c90224861a501d466bc8da946c125f36b70",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/data/yurdakul_provenance_audit.json",
+    "source_sha256": "54399ba505b5a97810500fdb43fe8411b8db166e953dccdd1361572a7c7d1e78",
+    "released_path": "provenance/yurdakul_provenance_audit.json",
+    "release_sha256": "f27e80a9c9ee6d3d677d87fc2369de9953d162e756aee7e9e74df7009079427c",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/c1_seed42/args.yaml",
+    "source_sha256": "88f53c99313798de0f0b41e60253e04b56ec79466730bb18b3ffb4c775c98380",
+    "released_path": "configs/c1_seed42_args.yaml",
+    "release_sha256": "8d565a68f5f61683569b80cc6ee08e22956f19e2fc22f55e52297d5d3c6b6155",
+    "transformation": "absolute path relocation only"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/c1_seed42/matched_budget_audit.json",
+    "source_sha256": "94a86ae017ef7200b03c0f7a59ce1dcdbeec51ca4ff3e74b2c37ef98dbc24708",
+    "released_path": "manifests/c1_seed42_budget.json",
+    "release_sha256": "768ba6f607fd21c129b61d7506ae9854f5b65f5acd2700f768eea4df34503bdc",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/c1_seed43/args.yaml",
+    "source_sha256": "0d3b2e55a564a6c9cf0bd981277dddf0b5ad01d17b1373016468dab895ae1088",
+    "released_path": "configs/c1_seed43_args.yaml",
+    "release_sha256": "34f98f7e1d77ba0acfee43afa6dec78656b759d924ae6027fe4c0eefd20c1a95",
+    "transformation": "absolute path relocation only"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/c1_seed43/matched_budget_audit.json",
+    "source_sha256": "c60b11183990fb10c84afa970cd3be8781745c983ced28780d9d22f20f61bd84",
+    "released_path": "manifests/c1_seed43_budget.json",
+    "release_sha256": "f77484a7657a3484ee8efb326a92212ed88b911657e1b184931f8923e57cf26a",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/c1_seed44/args.yaml",
+    "source_sha256": "718a60387964c7d30bf8af628f666ab3dd3ba368efeed2d12a19a0995526a40e",
+    "released_path": "configs/c1_seed44_args.yaml",
+    "release_sha256": "8053bfed952a79b6b3f254953fb857b490c5bff70abd83a1574904386e25137d",
+    "transformation": "absolute path relocation only"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/c1_seed44/matched_budget_audit.json",
+    "source_sha256": "79d80731b86319f060843e234c04caafcf50acddb50f455b36c32ad580ca0bb0",
+    "released_path": "manifests/c1_seed44_budget.json",
+    "release_sha256": "f2014ee9873cee71c2f1f9c2b7645b987d4dc6d3ecaa3e621f99de40bac850d5",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/a1_fixed_seed42/args.yaml",
+    "source_sha256": "1d4f0615c3a367b417c262b5f5a310f2c76f1998a4b1243d6c6709f0b65f9662",
+    "released_path": "configs/a1_fixed_seed42_args.yaml",
+    "release_sha256": "b7e879ad89230cff611e3c65b59c67757db107c2dcbed90f260b5e8e2bb72097",
+    "transformation": "absolute path relocation only"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/a1_fixed_seed42/matched_budget_audit.json",
+    "source_sha256": "451c31a770832c8003220364536fe975d747cf14c60f9000d6aeea4e3646ed38",
+    "released_path": "manifests/a1_fixed_seed42_budget.json",
+    "release_sha256": "3a9e34dfa9e94af7478de7af14b65384a39b4e692babe62c611eb4fad5cf303a",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/a1_fixed_seed43/args.yaml",
+    "source_sha256": "8de46e634a700e98f41d6a24722031c670207539d2d40ad9205224ed6136e504",
+    "released_path": "configs/a1_fixed_seed43_args.yaml",
+    "release_sha256": "d437950e0c32d8f0c250c2a89178d349ddeabe5ce4f48c14e123e3c4ba61ee6b",
+    "transformation": "absolute path relocation only"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/a1_fixed_seed43/matched_budget_audit.json",
+    "source_sha256": "a5961518321015449e57369d7a18b70530aa5d30e8b624cd33f30d2bd750cb49",
+    "released_path": "manifests/a1_fixed_seed43_budget.json",
+    "release_sha256": "af8c6ba172a29b3ad27ffd3a1590e045f41e4dbea890fdd7e74960f88f2ca1f1",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/a1_fixed_seed44/args.yaml",
+    "source_sha256": "d8f1da8c90c6c8aae613ae61d77a5159d9f8b482149d1aaa8299b72706c20975",
+    "released_path": "configs/a1_fixed_seed44_args.yaml",
+    "release_sha256": "b6fd4e2a14067939da30f157f8361fc1657e2340d675ee6913978fc95ca5d7f4",
+    "transformation": "absolute path relocation only"
+  },
+  {
+    "source": "runs/phase3_matched_20260919/a1_fixed_seed44/matched_budget_audit.json",
+    "source_sha256": "a2b87b9fbdcff8a463d8aae14da7116c33240d5ff8e44598f08e7b788ebc6dff",
+    "released_path": "manifests/a1_fixed_seed44_budget.json",
+    "release_sha256": "7b95554b865b63d70c544752f34ac6771e4797c2d166a33f518c4e826946fd9b",
+    "transformation": "absolute path strings relocated; numeric values unchanged"
+  },
+  {
+    "source": "scripts/evaluate_d3_end_to_end.py",
+    "source_sha256": "a053a0987cdb871da31c719d7bf3ed8af3230ac196a37cf4e641cbf276025f22",
+    "released_path": "scripts/evaluate_d3_end_to_end.py",
+    "release_sha256": "f656cc9b472a49ffd454000ec7aba4c4938754739962e09951d0574904ff5e80",
+    "transformation": "byte-equivalent UTF-8 source; historical relative layout retained"
+  },
+  {
+    "source": "scripts/frozen_partitions.py",
+    "source_sha256": "6c4387470a05190611ebbdca10a5d9691eeed7ed661e1e06cd69bd9972c7c5c2",
+    "released_path": "scripts/frozen_partitions.py",
+    "release_sha256": "ed692afb4d270ea1116622c71c278176c0b754dc6455cb23dadb84deca3d53f0",
+    "transformation": "byte-equivalent UTF-8 source; historical relative layout retained"
+  },
+  {
+    "source": "scripts/phase3_sds_corrected_eval.py",
+    "source_sha256": "6987aed72f6cbdf7488130cb967113b5d1693c6a3bbb3255380f4e74062323f8",
+    "released_path": "scripts/phase3_sds_corrected_eval.py",
+    "release_sha256": "74f63a79dbae82c2581d5999a8317e1a4431b2500d93a336de4439a604608b32",
+    "transformation": "byte-equivalent UTF-8 source; historical relative layout retained"
+  },
+  {
+    "source": "scripts/phase2_run_matched_training.py",
+    "source_sha256": "393ad50f7922de6fb0aa557548327f0be456418f1187cf12555261ba28c9c4d6",
+    "released_path": "scripts/phase2_run_matched_training.py",
+    "release_sha256": "38a3cf16e2bf0fed945408d6a27764c9d2073b56f59d808da3e70c17663f5db6",
+    "transformation": "byte-equivalent UTF-8 source; historical relative layout retained"
+  },
+  {
+    "source": "scripts/phase2_materialize_matched_data.py",
+    "source_sha256": "7594948855bfd41728c33d8b35d42cbe61f8e9ebb30d39288827448319553e90",
+    "released_path": "scripts/phase2_materialize_matched_data.py",
+    "release_sha256": "c7524bd0c37f2ca33889f2428a80aaef6008a8f584c5e0848ad125b5db061542",
+    "transformation": "byte-equivalent UTF-8 source; historical relative layout retained"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/scripts/plot_agriculture_figures.py",
+    "source_sha256": "39b41d1a04ecb61ab2dc7e2387fbecff26ffae32c2eb01cabc6ef078646e793f",
+    "released_path": "scripts/plot_figures.py",
+    "release_sha256": "accc4994fdc7bcb47a4c039dcea285fda93d399f81d4acc949022a5201f5e7e6",
+    "transformation": "input root relocated to released CSVs; plotting and calculations unchanged"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/agriculture_class_performance_change_revised.png",
+    "source_sha256": "323e2491c9295fb751ce4bd29b3b4d941eed8d4fa50becd740db1e7eb4e42ee5",
+    "released_path": "figures/agriculture_class_performance_change_revised.png",
+    "release_sha256": "27442823d8bb18e17f88beb7312fc589cea4dc10d9c94f10bf5ff5cb3c2a97c4",
+    "transformation": "unmodified numeric-only scientific figure, no fruit photographs"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/agriculture_class_performance_change_revised.pdf",
+    "source_sha256": "38fe6d35f80e6ed0ee85c66b548957386f0c6d9ee0490cae405d4f05cfce1336",
+    "released_path": "figures/agriculture_class_performance_change_revised.pdf",
+    "release_sha256": "e20b0eea90e9f9b6eb75b70ce7fbfca9ae294710842ab996fd812fbca0ece4a2",
+    "transformation": "unmodified numeric-only scientific figure, no fruit photographs"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/agriculture_class_performance_change_revised.svg",
+    "source_sha256": "2ced00ad9b81c32eb57a75596d46aba647719515eaa00c09106747ad20eb4abe",
+    "released_path": "figures/agriculture_class_performance_change_revised.svg",
+    "release_sha256": "7d34ef7a755d0641683a4082fa544e5234d791f0149ea6bcd27784abd53a388d",
+    "transformation": "unmodified numeric-only scientific figure, no fruit photographs"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/source_data_agriculture_class_performance_change_revised.csv",
+    "source_sha256": "6ed7c48d4c64ed79b109c6dc5394efcfdc42fb829d6dcc139b703692678a8dac",
+    "released_path": "figures/source_data_agriculture_class_performance_change_revised.csv",
+    "release_sha256": "6ed7c48d4c64ed79b109c6dc5394efcfdc42fb829d6dcc139b703692678a8dac",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/agriculture_half_to_fully_change_revised.png",
+    "source_sha256": "757133a01636c4c3489984048b5919107c2fbf044bd9f300bd2ac4bfa17659bc",
+    "released_path": "figures/agriculture_half_to_fully_change_revised.png",
+    "release_sha256": "5e3b1a24138cc77c1727da0e23648cf727a73b224dc0cd03b2a76eb004803af1",
+    "transformation": "unmodified numeric-only scientific figure, no fruit photographs"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/agriculture_half_to_fully_change_revised.pdf",
+    "source_sha256": "21f8dce313884e436d0e3cc61ed8a8d74f2d885c344b67cecbe69e9c47878c5c",
+    "released_path": "figures/agriculture_half_to_fully_change_revised.pdf",
+    "release_sha256": "2ac2d606c069be4d7b6e011d69ca2d49399ef5fcb2c5c34760f2399345868d7a",
+    "transformation": "unmodified numeric-only scientific figure, no fruit photographs"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/agriculture_half_to_fully_change_revised.svg",
+    "source_sha256": "a841ff93fb157787c4bb04e575ce8da9def544a4c8a311dcf90f7d98a940a174",
+    "released_path": "figures/agriculture_half_to_fully_change_revised.svg",
+    "release_sha256": "48ba071bb1ec2589653e3ae4eb86fd42a279a6b36ae77db73298fcbfacf67cd7",
+    "transformation": "unmodified numeric-only scientific figure, no fruit photographs"
+  },
+  {
+    "source": "reports/manuscript/phase4_revision/figures/source_data_agriculture_half_to_fully_change_revised.csv",
+    "source_sha256": "98e6e9bdc47d75faa66ab69d549d1e522c50a5e8196618c77e1c082a533d9d5b",
+    "released_path": "figures/source_data_agriculture_half_to_fully_change_revised.csv",
+    "release_sha256": "98e6e9bdc47d75faa66ab69d549d1e522c50a5e8196618c77e1c082a533d9d5b",
+    "transformation": "absolute path cells relocated; all other cells identical"
+  }
+]

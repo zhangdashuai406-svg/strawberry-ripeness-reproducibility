@@ -1,0 +1,59 @@
+{
+  "generated_utc": "2026-10-18T15:14:04.676015+00:00",
+  "script": "scripts/plot_figures.py",
+  "python": "3.12.14",
+  "matplotlib": "3.10.6",
+  "pandas": "2.3.3",
+  "inputs": [
+    "results/corrected_phase3/corrected_phase3_seed_metrics.csv",
+    "results/corrected_phase3/corrected_phase3_matched_deltas.csv",
+    "results/corrected_phase3/corrected_phase3_action_risk.csv"
+  ],
+  "prohibited_input_confirmed_absent": "no SDS legacy JSON is read by this script",
+  "models": "C1 budget-matched merchant-repeat control and A1-fixed mapped-source arm; unchanged YOLO11n",
+  "seeds": {
+    "strict": [
+      42,
+      44
+    ],
+    "sensitivity_only": [
+      43
+    ]
+  },
+  "protocol": {
+    "metrics": "corrected Phase 3 paired outputs",
+    "score_threshold": 0.25,
+    "semantic_matcher": "class-agnostic IoU>=0.5",
+    "normalization": "half→fully count divided by the fixed complete half-GT count for that source"
+  },
+  "dataset_identity": {
+    "external_development": "External development view, 141 images",
+    "merchant_source_development": "Merchant development view, 473 images",
+    "merchant_reused_historical_test": "Merchant reused historical test, 472 images",
+    "external_reused_historical_test": "External reused historical test, 142 images",
+    "sds_reused_historical_test": "Corrected SDS historical view, 26 images; corrected valid JSON only",
+    "yurdakul_reused_historical_test": "Yurdakul public Kaggle snapshot used by the experiment, 566 images and 1734 polygon-derived boxes; formal paper reports 1169 boxes"
+  },
+  "figures": [
+    {
+      "id": "agriculture_class_performance_change",
+      "outputs": [
+        "figures/agriculture_class_performance_change_revised.png",
+        "figures/agriculture_class_performance_change_revised.pdf",
+        "figures/agriculture_class_performance_change_revised.svg"
+      ],
+      "source_data": "figures/source_data_agriculture_class_performance_change_revised.csv",
+      "rows": 72
+    },
+    {
+      "id": "agriculture_half_to_fully_change",
+      "outputs": [
+        "figures/agriculture_half_to_fully_change_revised.png",
+        "figures/agriculture_half_to_fully_change_revised.pdf",
+        "figures/agriculture_half_to_fully_change_revised.svg"
+      ],
+      "source_data": "figures/source_data_agriculture_half_to_fully_change_revised.csv",
+      "rows": 12
+    }
+  ]
+}

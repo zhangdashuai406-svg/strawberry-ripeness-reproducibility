@@ -1,0 +1,73 @@
+﻿view,view_label,seed,analysis_status,metric,metric_label,delta_a1_fixed_minus_c1
+external_development,External development,42,strict,map50_95,Overall mAP50–95,0.0024840906675671
+external_development,External development,42,strict,fully_ap50,Fully AP50,0.0090563262686869
+external_development,External development,42,strict,green_ap50,Green AP50,-0.0024204757254334
+external_development,External development,42,strict,half_ap50,Half AP50,-0.0519856806594968
+external_development,External development,43,sensitivity-only,map50_95,Overall mAP50–95,0.0401243944336002
+external_development,External development,43,sensitivity-only,fully_ap50,Fully AP50,0.0446230647258523
+external_development,External development,43,sensitivity-only,green_ap50,Green AP50,-0.0001325029723743
+external_development,External development,43,sensitivity-only,half_ap50,Half AP50,-0.0312832103086728
+external_development,External development,44,strict,map50_95,Overall mAP50–95,0.0274800802726689
+external_development,External development,44,strict,fully_ap50,Fully AP50,0.029861685555369
+external_development,External development,44,strict,green_ap50,Green AP50,-0.0087373442194141
+external_development,External development,44,strict,half_ap50,Half AP50,-0.0189134681662974
+merchant_source_development,Merchant development,42,strict,map50_95,Overall mAP50–95,0.0155567373526442
+merchant_source_development,Merchant development,42,strict,fully_ap50,Fully AP50,0.0285868598530341
+merchant_source_development,Merchant development,42,strict,green_ap50,Green AP50,-0.0009641345685431
+merchant_source_development,Merchant development,42,strict,half_ap50,Half AP50,0.0163587891049868
+merchant_source_development,Merchant development,43,sensitivity-only,map50_95,Overall mAP50–95,0.0017617745448745
+merchant_source_development,Merchant development,43,sensitivity-only,fully_ap50,Fully AP50,-0.0126671589976173
+merchant_source_development,Merchant development,43,sensitivity-only,green_ap50,Green AP50,-0.001716497702518
+merchant_source_development,Merchant development,43,sensitivity-only,half_ap50,Half AP50,0.0132514359020866
+merchant_source_development,Merchant development,44,strict,map50_95,Overall mAP50–95,-0.0020015584657215
+merchant_source_development,Merchant development,44,strict,fully_ap50,Fully AP50,0.0136696571774225
+merchant_source_development,Merchant development,44,strict,green_ap50,Green AP50,-0.0035449761107877
+merchant_source_development,Merchant development,44,strict,half_ap50,Half AP50,-0.0148102282156425
+merchant_reused_historical_test,Merchant historical,42,strict,map50_95,Overall mAP50–95,0.0011569032351588
+merchant_reused_historical_test,Merchant historical,42,strict,fully_ap50,Fully AP50,0.0009036841705679
+merchant_reused_historical_test,Merchant historical,42,strict,green_ap50,Green AP50,-0.0010733919655122
+merchant_reused_historical_test,Merchant historical,42,strict,half_ap50,Half AP50,-0.0083933878034508
+merchant_reused_historical_test,Merchant historical,43,sensitivity-only,map50_95,Overall mAP50–95,-0.008167023293105
+merchant_reused_historical_test,Merchant historical,43,sensitivity-only,fully_ap50,Fully AP50,-0.0342248198533793
+merchant_reused_historical_test,Merchant historical,43,sensitivity-only,green_ap50,Green AP50,0.0013124947713414
+merchant_reused_historical_test,Merchant historical,43,sensitivity-only,half_ap50,Half AP50,0.0065703905102004
+merchant_reused_historical_test,Merchant historical,44,strict,map50_95,Overall mAP50–95,0.0097058241075443
+merchant_reused_historical_test,Merchant historical,44,strict,fully_ap50,Fully AP50,0.0162245392462144
+merchant_reused_historical_test,Merchant historical,44,strict,green_ap50,Green AP50,0.0004640913284061
+merchant_reused_historical_test,Merchant historical,44,strict,half_ap50,Half AP50,0.0153593916069357
+external_reused_historical_test,External historical,42,strict,map50_95,Overall mAP50–95,0.0303347656152313
+external_reused_historical_test,External historical,42,strict,fully_ap50,Fully AP50,-0.0020067743352817
+external_reused_historical_test,External historical,42,strict,green_ap50,Green AP50,0.0100401769705058
+external_reused_historical_test,External historical,42,strict,half_ap50,Half AP50,0.0452494980020997
+external_reused_historical_test,External historical,43,sensitivity-only,map50_95,Overall mAP50–95,0.0367373759243399
+external_reused_historical_test,External historical,43,sensitivity-only,fully_ap50,Fully AP50,0.0590163434638701
+external_reused_historical_test,External historical,43,sensitivity-only,green_ap50,Green AP50,0.0017626300062736
+external_reused_historical_test,External historical,43,sensitivity-only,half_ap50,Half AP50,0.0180193596659734
+external_reused_historical_test,External historical,44,strict,map50_95,Overall mAP50–95,0.0346116112864104
+external_reused_historical_test,External historical,44,strict,fully_ap50,Fully AP50,0.065228382454426
+external_reused_historical_test,External historical,44,strict,green_ap50,Green AP50,-0.0110116922901166
+external_reused_historical_test,External historical,44,strict,half_ap50,Half AP50,0.0421705969037449
+sds_reused_historical_test,Corrected SDS historical,42,strict,map50_95,Overall mAP50–95,0.1294912015532454
+sds_reused_historical_test,Corrected SDS historical,42,strict,fully_ap50,Fully AP50,0.0075035135092453
+sds_reused_historical_test,Corrected SDS historical,42,strict,green_ap50,Green AP50,0.0800428074349413
+sds_reused_historical_test,Corrected SDS historical,42,strict,half_ap50,Half AP50,0.2392739273927391
+sds_reused_historical_test,Corrected SDS historical,43,sensitivity-only,map50_95,Overall mAP50–95,0.1612854164083272
+sds_reused_historical_test,Corrected SDS historical,43,sensitivity-only,fully_ap50,Fully AP50,-0.0227154106388085
+sds_reused_historical_test,Corrected SDS historical,43,sensitivity-only,green_ap50,Green AP50,0.0940809748753456
+sds_reused_historical_test,Corrected SDS historical,43,sensitivity-only,half_ap50,Half AP50,0.4240924092409239
+sds_reused_historical_test,Corrected SDS historical,44,strict,map50_95,Overall mAP50–95,0.0988452901223757
+sds_reused_historical_test,Corrected SDS historical,44,strict,fully_ap50,Fully AP50,0.0882368671649774
+sds_reused_historical_test,Corrected SDS historical,44,strict,green_ap50,Green AP50,0.0564481681357776
+sds_reused_historical_test,Corrected SDS historical,44,strict,half_ap50,Half AP50,0.1364236423642364
+yurdakul_reused_historical_test,Yurdakul public snapshot,42,strict,map50_95,Overall mAP50–95,0.0253169296043814
+yurdakul_reused_historical_test,Yurdakul public snapshot,42,strict,fully_ap50,Fully AP50,0.0299871143140143
+yurdakul_reused_historical_test,Yurdakul public snapshot,42,strict,green_ap50,Green AP50,0.001178805972524
+yurdakul_reused_historical_test,Yurdakul public snapshot,42,strict,half_ap50,Half AP50,0.0013224163147814
+yurdakul_reused_historical_test,Yurdakul public snapshot,43,sensitivity-only,map50_95,Overall mAP50–95,0.0427020576017008
+yurdakul_reused_historical_test,Yurdakul public snapshot,43,sensitivity-only,fully_ap50,Fully AP50,0.0642676257319796
+yurdakul_reused_historical_test,Yurdakul public snapshot,43,sensitivity-only,green_ap50,Green AP50,-0.0019581023349959
+yurdakul_reused_historical_test,Yurdakul public snapshot,43,sensitivity-only,half_ap50,Half AP50,0.0056490498793916
+yurdakul_reused_historical_test,Yurdakul public snapshot,44,strict,map50_95,Overall mAP50–95,0.0422808327500937
+yurdakul_reused_historical_test,Yurdakul public snapshot,44,strict,fully_ap50,Fully AP50,0.0614489889099123
+yurdakul_reused_historical_test,Yurdakul public snapshot,44,strict,green_ap50,Green AP50,-0.009234321910033
+yurdakul_reused_historical_test,Yurdakul public snapshot,44,strict,half_ap50,Half AP50,0.0452429107174096

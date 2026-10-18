@@ -1,0 +1,156 @@
+{
+  "system": "d0",
+  "dataset": "yurdakul",
+  "detector": "runs/a_pooled_three_class/A1_pooled3c_seed44/weights/best.pt",
+  "classifier": null,
+  "parameters": {
+    "detector_conf": 0.001,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "score_threshold": 0.25,
+    "d3_score": null,
+    "crop_margin": null
+  },
+  "metrics": {
+    "images": 566,
+    "total_gt": 1734,
+    "total_predictions_at_detector_floor": 18365,
+    "map50": 0.6326410238859342,
+    "map50_95": 0.4160867728181927,
+    "per_class": {
+      "fully_ripened": {
+        "gt": 520,
+        "ap50": 0.6885089421622781,
+        "map50_95": 0.4906489328375751,
+        "ap_by_iou": {
+          "0.50": 0.6885089421622781,
+          "0.55": 0.6789185271504068,
+          "0.60": 0.6627623267447038,
+          "0.65": 0.6472731017463916,
+          "0.70": 0.6265633921732151,
+          "0.75": 0.5809032149907969,
+          "0.80": 0.49566745917722416,
+          "0.85": 0.36568990849056604,
+          "0.90": 0.15567489527135556,
+          "0.95": 0.004527560468812838
+        }
+      },
+      "green": {
+        "gt": 967,
+        "ap50": 0.6607234604105333,
+        "map50_95": 0.3725729276802636,
+        "ap_by_iou": {
+          "0.50": 0.6607234604105333,
+          "0.55": 0.6422241482286172,
+          "0.60": 0.6067882761345806,
+          "0.65": 0.5540203924091902,
+          "0.70": 0.474898598390165,
+          "0.75": 0.37373751275999234,
+          "0.80": 0.258305500165598,
+          "0.85": 0.12960939559856924,
+          "0.90": 0.02400756554838929,
+          "0.95": 0.0014144271570014143
+        }
+      },
+      "half_ripened": {
+        "gt": 247,
+        "ap50": 0.5486906690849915,
+        "map50_95": 0.38503845793673924,
+        "ap_by_iou": {
+          "0.50": 0.5486906690849915,
+          "0.55": 0.5471638444906518,
+          "0.60": 0.5341089487727171,
+          "0.65": 0.5084422320781589,
+          "0.70": 0.5003789156217706,
+          "0.75": 0.46377508191401356,
+          "0.80": 0.40169901832561816,
+          "0.85": 0.2675954827892126,
+          "0.90": 0.07623457418477513,
+          "0.95": 0.002295812105482393
+        }
+      }
+    },
+    "operating_point": {
+      "score_threshold": 0.25,
+      "tp": 1144,
+      "fp": 563,
+      "fn": 590,
+      "precision": 0.6701816051552432,
+      "recall": 0.6597462514417531,
+      "per_class": {
+        "fully_ripened": {
+          "tp": 365,
+          "fp": 153,
+          "fn": 155,
+          "precision": 0.7046332046332047,
+          "recall": 0.7019230769230769
+        },
+        "green": {
+          "tp": 635,
+          "fp": 310,
+          "fn": 332,
+          "precision": 0.671957671957672,
+          "recall": 0.656670113753878
+        },
+        "half_ripened": {
+          "tp": 144,
+          "fp": 100,
+          "fn": 103,
+          "precision": 0.5901639344262295,
+          "recall": 0.582995951417004
+        }
+      }
+    },
+    "error_decomposition_at_operating_point": {
+      "localized_gt": 1236,
+      "localization_recall": 0.71280276816609,
+      "correctly_classified_localized_gt": 1125,
+      "classification_accuracy_given_localized": 0.9101941747572816,
+      "end_to_end_correct_rate": 0.6487889273356401,
+      "confusion_yolo_order_fully_green_half": [
+        [
+          362,
+          1,
+          37
+        ],
+        [
+          2,
+          633,
+          11
+        ],
+        [
+          47,
+          13,
+          130
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 8.965824604034424,
+  "degenerate_predictions_dropped": 0,
+  "validation_only": false,
+  "test_sets_touched": true,
+  "evaluated_from_partitions": [
+    "Yurdakul full released set"
+  ],
+  "flag_correction": {
+    "date": "2026-09-18",
+    "script": "scripts/correct_frozen_test_flags.py",
+    "reason": "the flags were literals in the code that wrote this record; they are now derived from what the record itself carries — the image and box counts it measured and the directories it names — matched against the partitions recounted from disk and the frozen registry in scripts/frozen_partitions.py",
+    "evidence": "metrics.images=566 and metrics.total_gt=1734 match ['Yurdakul full released set'] uniquely",
+    "signals": {
+      "counts": {
+        "partitions": [
+          "Yurdakul full released set"
+        ],
+        "test_sets_touched": true,
+        "evidence": "metrics.images=566 and metrics.total_gt=1734 match ['Yurdakul full released set'] uniquely"
+      }
+    },
+    "replaced": {
+      "validation_only": true,
+      "test_sets_touched": false
+    },
+    "metrics_unmodified": true
+  }
+}

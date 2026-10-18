@@ -1,0 +1,160 @@
+{
+  "repair_status": "CORRECTED_NATIVE_SDS_TEST",
+  "model_name": "c1",
+  "seed": 43,
+  "detector": "runs/phase3_matched_20260919/c1_seed43/weights/last.pt",
+  "checkpoint_sha256": "fb10b19e23ebd8d59a5ed26af35ea6cf23a04faf9342511989f44641f4f51fc6",
+  "evaluated_from": {
+    "images": "upstream_workspace/strawberry-DS/test/images",
+    "labels": "upstream_workspace/strawberry-DS/test/labels",
+    "dataset_yaml": "upstream_workspace/strawberry-DS/data.yaml",
+    "dataset_yaml_sha256": "667bd97edb2b12195e6e8c6b6503371dc0d9b19cd4841b01b955fcc6520f1400"
+  },
+  "dataset_manifest_sha256": "17b5a0e107d71b6dd20e6717ff5febc1c6211cdb8a0b16b25a16c3854db114a2",
+  "dataset_identity": {
+    "images": 26,
+    "labels": 26,
+    "total_gt": 104,
+    "gt_fully_green_half": [
+      19,
+      78,
+      7
+    ],
+    "manifest_sha256": "17b5a0e107d71b6dd20e6717ff5febc1c6211cdb8a0b16b25a16c3854db114a2"
+  },
+  "label_ontology": "native_six_class",
+  "class_order": {
+    "0": "fully_ripened",
+    "1": "green",
+    "2": "half_ripened"
+  },
+  "parameters": {
+    "system": "d0",
+    "detector_conf": 0.001,
+    "nms_iou": 0.7,
+    "imgsz": 640,
+    "batch": 8,
+    "score_threshold": 0.25,
+    "match_iou": 0.5
+  },
+  "script_version": "phase3_sds_corrected_eval_v2",
+  "script_sha256": "6987aed72f6cbdf7488130cb967113b5d1693c6a3bbb3255380f4e74062323f8",
+  "executed_at_utc": "2026-09-20T10:58:04.193919+00:00",
+  "metrics": {
+    "images": 26,
+    "total_gt": 104,
+    "total_predictions_at_detector_floor": 396,
+    "map50": 0.5481056938701668,
+    "map50_95": 0.39120957557604846,
+    "per_class": {
+      "fully_ripened": {
+        "gt": 19,
+        "ap50": 0.7743717792831916,
+        "map50_95": 0.6424607021959018,
+        "ap_by_iou": {
+          "0.50": 0.7743717792831916,
+          "0.55": 0.7743717792831916,
+          "0.60": 0.7743717792831916,
+          "0.65": 0.7743717792831916,
+          "0.70": 0.7743717792831916,
+          "0.75": 0.7385524364793458,
+          "0.80": 0.7385524364793458,
+          "0.85": 0.6972265647617394,
+          "0.90": 0.370990945248371,
+          "0.95": 0.007425742574257425
+        }
+      },
+      "green": {
+        "gt": 78,
+        "ap50": 0.6290212099180683,
+        "map50_95": 0.3526201697467649,
+        "ap_by_iou": {
+          "0.50": 0.6290212099180683,
+          "0.55": 0.6127155732365744,
+          "0.60": 0.5676637742746461,
+          "0.65": 0.5334261943197547,
+          "0.70": 0.4847133449433299,
+          "0.75": 0.2950213899,
+          "0.80": 0.2508564542387428,
+          "0.85": 0.11923825922964966,
+          "0.90": 0.03354549740688355,
+          "0.95": 0.0
+        }
+      },
+      "half_ripened": {
+        "gt": 7,
+        "ap50": 0.24092409240924093,
+        "map50_95": 0.17854785478547855,
+        "ap_by_iou": {
+          "0.50": 0.24092409240924093,
+          "0.55": 0.24092409240924093,
+          "0.60": 0.24092409240924093,
+          "0.65": 0.24092409240924093,
+          "0.70": 0.24092409240924093,
+          "0.75": 0.24092409240924093,
+          "0.80": 0.24092409240924093,
+          "0.85": 0.04950495049504951,
+          "0.90": 0.04950495049504951,
+          "0.95": 0.0
+        }
+      }
+    },
+    "operating_point": {
+      "score_threshold": 0.25,
+      "tp": 77,
+      "fp": 36,
+      "fn": 27,
+      "precision": 0.6814159292035398,
+      "recall": 0.7403846153846154,
+      "per_class": {
+        "fully_ripened": {
+          "tp": 17,
+          "fp": 8,
+          "fn": 2,
+          "precision": 0.68,
+          "recall": 0.8947368421052632
+        },
+        "green": {
+          "tp": 59,
+          "fp": 27,
+          "fn": 19,
+          "precision": 0.686046511627907,
+          "recall": 0.7564102564102564
+        },
+        "half_ripened": {
+          "tp": 1,
+          "fp": 1,
+          "fn": 6,
+          "precision": 0.5,
+          "recall": 0.14285714285714285
+        }
+      }
+    },
+    "error_decomposition_at_operating_point": {
+      "localized_gt": 82,
+      "localization_recall": 0.7884615384615384,
+      "correctly_classified_localized_gt": 77,
+      "classification_accuracy_given_localized": 0.9390243902439024,
+      "end_to_end_correct_rate": 0.7403846153846154,
+      "confusion_yolo_order_fully_green_half": [
+        [
+          17,
+          1,
+          0
+        ],
+        [
+          0,
+          59,
+          0
+        ],
+        [
+          4,
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "elapsed_seconds": 2.5652122497558594,
+  "degenerate_predictions_dropped": 0
+}
